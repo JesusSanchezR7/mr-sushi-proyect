@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "android": {
+      "package": "com.jesus_sanchezr7.seorsushi"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 31,
+            "targetSdkVersion": 31,
+            "buildToolsVersion": "31.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ca035c2b-51b4-4fd9-a821-a2f4cb4d5778"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "y"
+    }
+  }
+}
